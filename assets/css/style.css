@@ -5,8 +5,6 @@
 }
 
 .header {
-    width: 100vw;
-    height: 15vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,7 +21,6 @@
 }
 
 .content {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -32,15 +29,27 @@
 
 .content article {
     display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 2px 10px 2px 10px;
     border: 1px solid black;
     border-radius: 5px;
 }
 
+label {
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
 textarea {
     resize: none;
+    width: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     background-color: lightgray;
+}
+
+i {
+    margin: 20px auto;
 }
